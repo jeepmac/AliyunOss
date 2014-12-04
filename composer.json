@@ -1,6 +1,5 @@
 {
     "name": "kisay/aliyun-oss",
-    "type": "library",
     "description": "Aliyun Oss Client for laravel",
     "keywords": ["aliyun", "oss", "laravel"],
     "license": "MIT",
@@ -12,7 +11,7 @@
         }
     ],
     "require": {
-        "php": ">=5.3.0",
+        "php": ">=5.4.0",
         "illuminate/support": "4.2.*"
     },
     "autoload": {
@@ -20,5 +19,5 @@
             "Kisay\\AliyunOss\\": "src/"
         }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "stable"
 }
