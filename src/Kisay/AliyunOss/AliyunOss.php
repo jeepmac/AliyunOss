@@ -1,5 +1,4 @@
 <?php  namespace Kisay\AliyunOss;
-
 use Config;
 use Exception;
 /**
@@ -24,7 +23,9 @@ define('OSS_ACCESS_KEY', Config::get('aliyun-oss::aliyun_oss.OSS_ACCESS_KEY', ''
 define('ALI_LOG', Config::get('aliyun-oss::aliyun_oss.ALI_LOG', 'FALSE'));
 
 //自定义日志路径，如果没有设置，则使用系统默认路径，在./logs/
-define('ALI_LOG_PATH', Config::get('aliyun-oss::aliyun_oss.ALI_LOG_PATH', storage_path('aliyun-log')));
+$log_path = Config::get('aliyun-oss::aliyun_oss.ALI_LOG_PATH', '');
+$log_path = empty($log_path)?OSS_API_PATH.'/logs/' : $log_path;
+define('ALI_LOG_PATH', $log_path);
 
 //是否显示LOG输出
 define('ALI_DISPLAY_LOG', Config::get('aliyun-oss::aliyun_oss.ALI_DISPLAY_LOG', 'FALSE'));

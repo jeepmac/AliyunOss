@@ -1,4 +1,5 @@
-<?php
+<?php  namespace Kisay\AliyunOss;
+
 /**
  * 获得文件的mime type类型
  * @author xiaobing.meng
