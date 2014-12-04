@@ -1,13 +1,10 @@
 {
     "name": "kisay/aliyun-oss",
-    "description": "Aliyun Oss Client for laravel",
-    "keywords": ["aliyun", "oss", "laravel"],
-    "license": "MIT",
+    "description": "",
     "authors": [
         {
             "name": "kisay",
-            "email": "kisaythink@gmail.com",
-            "role":"Developer"
+            "email": "kisaythink@gmail.com"
         }
     ],
     "require": {
