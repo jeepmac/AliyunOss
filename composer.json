@@ -1,6 +1,7 @@
 {
     "name": "kisay/aliyun-oss",
-    "description": "",
+    "description": "Aliyun Oss Client for laravel",
+    "keywords": ["aliyun", "oss", "laravel"],
     "authors": [
         {
             "name": "kisay",
@@ -16,5 +17,6 @@
             "Kisay\\AliyunOss\\": "src/"
         }
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
